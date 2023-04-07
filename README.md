@@ -1,5 +1,5 @@
 # Problema identificării comunităților într-o rețea complexă rezolvata folosind algoritmi genetici
-
+In folderul plot am salvate mai multe rezultate in urma rularii algoritmului pe diferite comunitati
 ![image](https://user-images.githubusercontent.com/30391543/230649209-fbb7b22d-0c12-40b1-94b3-1d27713c8487.png)
 I used diffrent fitness functions, they seem to get diffrent results: <br>
 * modularity 
