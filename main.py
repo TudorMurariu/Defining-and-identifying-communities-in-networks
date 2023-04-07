@@ -142,10 +142,10 @@ if __name__ == '__main__':
     network_ = read_graph_from_file(file)
     network_aux = network_.copy()
 
-    ga_params = {'popSize': 100, 'noGen': 300, 'mutFactor': 30}
+    ga_params = {'popSize': 50, 'noGen': 200, 'mutFactor': 30}
 
     stTime = time.time()
-    plotParam = run_ga(network_aux, ga_params, modularity_density, file)
+    plotParam = run_ga(network_aux, ga_params, z_modularity, file)
     timeSpent = time.time() - stTime
     print("--- TOTAL %s seconds ---" %(timeSpent))
 
